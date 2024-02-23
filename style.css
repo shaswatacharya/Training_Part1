@@ -16,9 +16,20 @@
     margin: 0 35px;
   
 }
+
 .logo {
+  display: flex;
+  font-size: 20px;
   padding: 13px;
   cursor: pointer;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+}
+
+.logo .icon{
+  width: 45px;
+  height: 31px;
 }
 .content {
     
@@ -46,4 +57,11 @@
         text-decoration-color: rgb(181, 181, 181);
         transition: 0.5s;
         
+}
+
+
+.login  {
+  float: left;
+  justify-content: space-between;
+  text-decoration: none;
 }
