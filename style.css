@@ -35,6 +35,7 @@
     
     list-style: none;
     font-size: 1.5rem;
+    
 }
 
 .content li {
@@ -51,17 +52,106 @@
 }
 
 .content a:hover {
-        color: gray;
-        text-decoration: underline;
-        text-underline-offset: 1rem;
-        text-decoration-color: rgb(181, 181, 181);
-        transition: 0.5s;
-        
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition: 0.5s;     
 }
-
 
 .login  {
   float: left;
   justify-content: space-between;
   text-decoration: none;
+  text-align: center;
 }
+
+
+.main{
+  text-align: center;
+}
+
+.main_page{
+  margin-top: 100px;
+  gap: 20px;
+  align-items: center;
+}
+
+.main_page h1{
+
+  font-size: 50px;
+  font-weight: 600;
+
+}
+
+.main_circle{
+  width: 60%;
+  padding: 10px 0px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 70% 28%;
+}
+
+.Enroll{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.Enrolllearn_button{
+  height: max-content;
+  width: fit-content;
+  background-color: green;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+.circle{
+  position: relative;
+}
+
+.one{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(199, 156, 0, 0.6);
+}
+
+.two{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 152, 199, 0.6);
+}
+
+.three{
+  position: absolute;
+  bottom: -70px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 199, 90, 0.6);
+}
+
+
+
