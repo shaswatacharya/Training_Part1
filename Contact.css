@@ -1,0 +1,30 @@
+
+.textdata{
+    font-size: 2em;
+text-transform: uppercase;
+    animation: 4s infinite animatedStroke;
+}
+
+@keyframes animatedStroke{
+    0%{
+        fill: transparent;
+        stroke:green;
+        stroke-width: 2;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 31%;
+    }
+    50%{
+        fill: transparent;
+        stroke:green;
+        stroke-width: 2;
+    
+    }
+
+    80%,100%{
+        fill: green;
+        stroke:transparent;
+        stroke-width: 2;
+        stroke-dashoffset: -25%;
+        stroke-dasharray:31% 0;
+    }
+}

@@ -1,75 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training</title>
-    <link rel="stylesheet" href="style.css">
+    <title>website_Training</title>
+    <style>
+        h1 {
+            color: wheat;
+        }
+    </style>
+
+
 </head>
+
 <body>
 
-    <header>
 
-        <div class="nav">
-            <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" class="icon"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6v13m9-13v13m9-13v13"/></svg>Edumark</div>
-                
-                
-                <div class="content">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="login">
-                    <div>
-                        Login
-                    </div>
-                    
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8.12 8.12 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62M176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.61.61 0 0 0 0 .12l21 47l-20.67 24.74a6.13 6.13 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8.44 8.44 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208"/></svg>
-                        <div>+1 456 565 6578</div>
-                        
-                    </div>
-                    
-                    
-                </div>
-                
+
+    <nav class="navigation" id="navs">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M202.24 74C166.11 56.75 115.61 48.3 48 48a31.36 31.36 0 0 0-17.92 5.33A32 32 0 0 0 16 79.9V366c0 19.34 13.76 33.93 32 33.93c71.07 0 142.36 6.64 185.06 47a4.11 4.11 0 0 0 6.94-3V106.82a15.89 15.89 0 0 0-5.46-12A143 143 0 0 0 202.24 74m279.68-20.7A31.33 31.33 0 0 0 464 48c-67.61.3-118.11 8.71-154.24 26a143.31 143.31 0 0 0-32.31 20.78a15.93 15.93 0 0 0-5.45 12v337.13a3.93 3.93 0 0 0 6.68 2.81c25.67-25.5 70.72-46.82 185.36-46.81a32 32 0 0 0 32-32v-288a32 32 0 0 0-14.12-26.61" />
+            </svg>
+            <div>
+                Edumark
+            </div>
+        </div>
+        <div class="menu_item">
+            <a href="./Contact.html">Home</a>
+            <!-- relative link -->
+
+            <a href="./Contact.html">Courses</a>
+            <!-- relative link --> <a href="./Contact.html">Pages</a>
+            <!-- relative link --> <a href="./Contact.html">About</a>
+            <!-- relative link --> <a href="./Contact.html">Blog</a>
+            <!-- relative link -->
+
+            <a href="https://github.com/">Contact</a>
+            <!-- absolute -->
+
+        </div>
+        <div class="info">
+            <div>
+                Login
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+                </svg>
             </div>
 
-
-                <div class="main">
-
-                    <div class="main_page">
-
-
-                        <h1>Hello!<br>Welcome to this site</h1>
-
-                    </div>
-
-                </div>
-
-                <div class="main_circle">
-
-                    <div class="Enroll">
-                        <div>Over 7000 Tutorials from 20 courses</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nihil non error, reiciendis quam vero illo, voluptates suscipit adipisci itaque quia tempore tenetur voluptas</div>
-                        <div class="Enrolllearn_button">
-                            Enroll a course
-                        </div>
-
-                    </div>
-
-                <div class="circle">
-                    <div class="one">one</div>
-                    <div class="two">two</div>
-                    <div class="three">three</div>
+            <div class="callbutton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M19.95 21q-3.125 0-6.175-1.362t-5.55-3.863q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3" />
+                </svg>
+                <div>
+                    +7638638467
                 </div>
             </div>
+        </div>
 
-        </header>
-        </body>
-        </html>
+    </nav>
+
+
+    <!-- banner -->
+
+    <div class="banner">
+        <div class="banner_info">
+            <div class="bannerimage">
+              
+                <!-- <img class="bannerimage" src="./edu_ilastration.png.webp" alt="banner" /> -->
+            </div>
+            <div>
+                <div class="learn_text">
+                    Learn Your
+                    Favorite Course
+                    From Online
+                </div>
+                <div class="learn_button">Browse Our Courrse</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- circles -->
+<div class="maincircle">
+    <div class="Enroll">
+        <div class="Enroll_title">Over 7000 Tutorials from 20 Courses</div>
+        <div class="Enroll_desc">Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god moving. Moving in fourth air night bring upon you’re it beast let you dominion likeness open place day great wherein heaven sixth lesser subdue fowl</div>
+
+        <div class="Enroll_button">Enroll a course</div>
+    </div>
+    <div class="circle">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+
+    </div>
+</div>
+
+<!-- popular courses -->
+<div>
+    <div class="Popular_title">
+        <div class="pt_title">Popular Courses</div>
+        <div>Your domain control panel is designed for ease-of-use and
+            allows for all aspects of your domains.</div>
+    </div>
+
+    <div class="popular_filter">
+        <div>All</div>
+        <div>Ui/Ux</div>
+        <div>web design</div>
+        <div>web development</div>
+        <div>photoshop</div>
+        <div>sketch app</div>
+    </div>
+
+    <div class="courses">
+        <div class="card">
+            <img class="card_image" src="./assets/img/1.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/2.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/3.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/4.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/5.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/6.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card_image" src="./assets/img/edu_ilastration.png.webp" />
+            <div>
+                    <div class="card_category">Photoshop</div>
+                    <div class="card_title">Mobile App design step by step from beginner</div>
+
+                    <div class="rating">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/></svg>
+                            (4.5)</div>
+                        <div class="discount">$5000</div>
+                        <div >$3000</div>
+                    </div>
+
+            </div>
+        </div>
+      
+
+        
+    </div>
+
+    <div class="course_button">
+        More Courses
+    </div>
+</div>
+
+</body>
+
+</html>
