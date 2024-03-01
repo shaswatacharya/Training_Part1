@@ -6,6 +6,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    display: grid;
+
 }
 nav{
     background-color: #9D4BEB;
@@ -245,9 +247,16 @@ border-bottom:1px solid lightgray;
     border-radius: 10px;
 }
 
+.card_wrapper{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .card_image{
     height: 300px;
     width: 100%;
+    overflow: clip;
 }
 .rating{
     margin-top: 40px;
@@ -276,16 +285,76 @@ border-bottom:1px solid lightgray;
 }
 
 .course_button{
-  height: fit-content;
-  width: fit-content;
-  padding: 20px 40px;
-  border: 1px solid #04D2C8;
-  color: #04D2C8;
-  border-radius: 50px;
-  margin: 0px auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 40px;
+    border: 1px solid #04D2C8 ;
+    color: #04D2C8 ;
+    border-radius: 50px;margin: 0px auto;
+    position: relative;
+    overflow: clip;
+    cursor: pointer;
+    transition: all .8s ease-in-out;
 }
 
-.course_button:hover{
-  background-color: #04D2C8;
-  color: white;
+
+
+.empty{
+    height: 0%;
+    width: 100%;
+    content: '';
+    contain: '';
+position: absolute;
+top: 0px;
+left: 0px;
+transition: all .8s ease-in-out;
+background-color: #04D2C8 ;
+}
+.button-text{
+    position: relative;
+    z-index: 1;
+    transition: all .8s ease-in-out;
+}
+
+.course_button:hover .empty,.course_button:hover .button-text{
+ 
+    color: white;
+    height: 100%;
+
+}
+
+.testimonials{
+    background-image: url('https://th.bing.com/th/id/R.9dcae8a02a3cf88f4170d7c9372f797b?rik=tbfYuz8I%2fKh28w&pid=ImgRaw&r=0');
+    padding: 6em 0px;
+}
+
+.testimonials_data{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonials_data img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.testimonials_data p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.testimonials_data div{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
 }
