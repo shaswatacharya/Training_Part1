@@ -369,3 +369,18 @@ background-color: #04D2C8 ;
         grid-template-columns:100%;
     }
 }
+
+ li::marker{
+    color: red;
+    font-size: 24px;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+}
+
+
+tbody tr td{
+    border: 1px solid red;
+}
